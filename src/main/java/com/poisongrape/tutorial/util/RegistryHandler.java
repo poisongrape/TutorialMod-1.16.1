@@ -15,6 +15,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> MEGURITE = ITEMS.register("megurite", ItemBase::new);
 
+
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
