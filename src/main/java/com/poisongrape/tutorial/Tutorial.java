@@ -15,6 +15,7 @@ public class Tutorial
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "tutorial";
+    public static final TutorialTab TAB = new TutorialTab("VaneTab");
 
     public Tutorial() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

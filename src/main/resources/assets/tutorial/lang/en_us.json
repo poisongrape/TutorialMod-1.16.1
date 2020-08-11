@@ -1,5 +1,6 @@
 {
-  "itemGroup.tutorialTab": "Tutorial",
+  "block,tutorial.ruby_block": "Ruby Block",
   "item.tutorial.ruby": "Ruby",
-  "item.tutorial.megurite": "Megurite"
+  "item.tutorial.megurite": "Megurite",
+  "itemGroup.tutorialTab": "Tutorial"
 }
