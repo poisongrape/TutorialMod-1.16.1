@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorial:block/megurite_block"
+    }
+  }
+}

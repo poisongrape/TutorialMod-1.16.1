@@ -1,6 +1,7 @@
 {
-  "block,tutorial.ruby_block": "Ruby Block",
-  "item.tutorial.ruby": "Ruby",
+  "block.tutorial.megurite_block": "Ekusuprsion Block",
+  "block.tutorial.ruby_block": "Ruby Block",
   "item.tutorial.megurite": "Megurite",
+  "item.tutorial.ruby": "Ruby",
   "itemGroup.tutorialTab": "Tutorial"
 }

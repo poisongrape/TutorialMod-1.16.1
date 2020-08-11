@@ -2,6 +2,7 @@ package com.poisongrape.tutorial.util;
 
 import com.poisongrape.tutorial.Tutorial;
 import com.poisongrape.tutorial.blocks.BlockItemBase;
+import com.poisongrape.tutorial.blocks.MeguriteBlock;
 import com.poisongrape.tutorial.blocks.RubyBlock;
 import com.poisongrape.tutorial.items.ItemBase;
 import net.minecraft.block.Block;
@@ -28,7 +29,9 @@ public class RegistryHandler {
 
     // Blocks (actual block placed in game)
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> MEGURITE_BLOCK = BLOCKS.register("megurite_block", MeguriteBlock::new);
 
     // Block Items (block held in hand)
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> MEGURITE_BLOCK_ITEM = ITEMS.register("megurite_block", () -> new BlockItemBase(MEGURITE_BLOCK.get()));
 }
